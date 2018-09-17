@@ -25,7 +25,7 @@ public static void main(String[] args) throws InterruptedException {
 		driver.get("http://toolsqa.com/automation-practice-form/");
 		
 		driver.findElement(By.xpath(".//input[@name='firstname']")).sendKeys("abc");
-		System.out.println("1firstName: " + "abc");
+		System.out.println("2firstName: " + "abc");
 		
 		driver.findElement(By.cssSelector("input[name='lastname']")).sendKeys("xyz");
 		System.out.println("firstName: " + "xyz");
